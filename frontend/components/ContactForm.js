@@ -73,7 +73,7 @@ const ContactForm = () => {
       <h1>Contact Form</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="firstName">First Name*</label>
+          <label htmlFor="firstName">First Name:</label>
           <input
             onChange={handleChange}
             name="firstName"
@@ -85,7 +85,7 @@ const ContactForm = () => {
         </div>
 
         <div>
-          <label htmlFor="lastName">Last Name*</label>
+          <label htmlFor="lastName">Last Name:</label>
           <input
             onChange={handleChange}
             id="lastName"
@@ -97,7 +97,7 @@ const ContactForm = () => {
         </div>
 
         <div>
-          <label htmlFor="email">Email*</label>
+          <label htmlFor="email">Email:</label>
           <input
             onChange={handleChange}
             id="email"
@@ -109,7 +109,7 @@ const ContactForm = () => {
         </div>
 
         <div>
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Message: </label>
           <input
             onChange={handleChange}
             name="message"
